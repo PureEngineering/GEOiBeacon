@@ -4,7 +4,7 @@ GEO-iBeacon is a standard way for encoding latitude, longitude, and height into 
 ![Geo-iBeacon](https://github.com/PureEngineering/GEOiBeacon/raw/master/geoibeacon.png)
 
 
-## Who Uses Geo-iBeacon
+## Who Uses Geo-iBeacon*
 
 * [PureLocate](http://www.purelocate.com)
 
