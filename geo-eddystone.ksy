@@ -4,7 +4,7 @@ meta:
   license: MIT
   endian: be
 doc: |
-  GEO-eddystone is a Standard for encoding latitude, longitude, and height into an iBeacon standard format allowing for server-less indoor location and tracking in an eddystone beacon 
+  GEO-eddystone is a Standard for encoding latitude, longitude, and height into an eddystone standard format allowing for server-less indoor location and tracking in an eddystone beacon 
 seq:
 - id: frame
   type: frame
