@@ -1,5 +1,5 @@
 # GEO-iBeacon
-GEO-iBeacon is a Standard for encoding latitude, longitude, and height into an iBeacon standard format allowing for server-less indoor location and tracking. 
+GEO-iBeacon is a standard way for encoding latitude, longitude, and height into an iBeacon standard format allowing for server-less indoor location and tracking. 
 
 ![Geo-iBeacon](https://github.com/PureEngineering/GEOiBeacon/raw/master/geoibeacon.png)
 
