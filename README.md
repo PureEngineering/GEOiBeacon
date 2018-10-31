@@ -90,6 +90,8 @@ For iBeacon developers who wish to encode geo information into their iBeacon ref
 For app developers, you can subscribe to the central location/UUID for iBeacon events. For each iBeacon you see with that matching UUID, and then you can construct the offset to that central location using the data in the major and minor number fields. 
 You can apply simple algorithms such as clamping to the strongest RSSI, or apply more advanced location methods using averaging of multiple Geo-iBeacons. Since the location information is all encoded within the Geo-iBeacon, there is no need for a central database to store/compute/retrieve your location information. This removes the need for network access and ensures privacy.  
 
+# GEO-eddystone
+GEO-eddystone is a Standard for encoding latitude, longitude, and height into an eddystone standard ble beacon format allowing for server-less indoor location and tracking. This standard is used when iBeacon is not usable or desired. In most cases the Geo-iBeacon should be used over Geo-eddystone to support a wider range of devices. 
 
 ## License
 
