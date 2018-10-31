@@ -1,10 +1,10 @@
 meta:
   id: geoibeacon
-  title: location and offset encoded in an ibeacon beacon
+  title: location and offset encoded in an ibeacon
   license: MIT
   endian: be
 doc: |
-  location encoded in an ibeacon beacon 
+  GEO-iBeacon is a Standard for encoding latitude, longitude, and height into an iBeacon standard format allowing for server-less indoor location and tracking.
 seq:
 - id: frame
   type: frame
@@ -42,7 +42,7 @@ types:
       doc: signed latitude units offset from latitude center
     - id: longitude_1e5_offset
       type: b12 
-      doc: signed longitude units offset from the longitue center
+      doc: signed longitude units offset from the longitude center
     - id: elevation_offset
       type: s8
       doc: highet offset in decimeter's
